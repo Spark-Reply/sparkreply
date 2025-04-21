@@ -60,7 +60,7 @@ export default function DMRepAI() {
 />
 
 <motion.h1 className="text-3xl font-bold text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-  SparkReply – Smart Auto-Replies for Your Business
+  SparkReply – AI Messaging Assistant for Small Businesses
 </motion.h1>
       
       <Card className="shadow-xl rounded-2xl">
