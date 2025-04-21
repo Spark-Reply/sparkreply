@@ -88,10 +88,11 @@ export default function DMRepAI() {
     />
     <Input
   className="w-full"
-  placeholder="Reply tone (e.g., Friendly, Professional)"
-      value={sampleQuestion}
-      onChange={(e) => setSampleQuestion(e.target.value)}
-    />
+  placeholder="Sample customer question..."
+  value={sampleQuestion}
+  onChange={(e) => setSampleQuestion(e.target.value)}
+/>
+
     <Button type="submit" disabled={loading} className="w-full sm:w-auto">
       {loading ? "Generating..." : "Generate Reply"}
     </Button>
